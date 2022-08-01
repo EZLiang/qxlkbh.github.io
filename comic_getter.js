@@ -15,9 +15,35 @@ const pgData = {
 		content: '<img src="comics/inconsistent_man_the_presequel.png" title="\'So, you\'ve always been real?\' \'Yeah. Wai--\'"/>'
 	},
 	"3": {
-		title: "<h1>weirdness - 1</h1>",
+		title: "<h1>early installment weirdness part 1</h1>",
 		content: '<img src="comics/weirdness_1.png" title="you wouldn\'t believe it, but the narrator\'s actually narrating"/>'
 	}
+	"4": {
+		title: "<h1>early installment weirdness part 2</h1>",
+		content: '<img src="comics/weirdness_2.png" title="you wouldn\'t believe it, but the narrator\'s actually narrating"/>'
+	}
+	"5": {
+		title: "<h1>early installment weirdness part 3</h1>",
+		content: '<img src="comics/weirdness_3.png" title="PLACEHOLDER"/>'
+	}
+	"6": {
+		title: "<h1>early installment weirdness part 4</h1>",
+		content: '<img src="comics/weirdness_4.png" title="you wouldn\'t believe it, but the narrator\'s actually narrating"/>'
+	}
+	"7": {
+		title: "<h1>early installment weirdness part 5</h1>",
+		content: '<img src="comics/weirdness_5.png" title="I\'m legitimately worried that fanservice-obsessed cueball is going to become a proper recurring character. I better do something about that."/>'
+	}
+	"8": {
+		title: "<h1>beat panels</h1>",
+		content: '<img src="comics/beatpanels.png" title="This is one of the few times I\'m actually going to copy-paste content twixt panels"/>'
+	}
+	"9": {
+		title: "<h1>title drop</h1>",
+		content: '<img src="comics/titledrop.png" title="Rrrrollcredit-- we\'re not a movie, we can\'t get slack from **Cinema** Sins. And no, you can\'t hear how the doctor said qxlkbh, it\'s through text."/>'
+	}
+
+
 };
 
 
