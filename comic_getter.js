@@ -20,7 +20,7 @@ const pgData = {
 	}
 	"4": {
 		title: "<h1>early installment weirdness part 2</h1>",
-		content: '<img src="comics/weirdness_2.png" title="you wouldn\'t believe it, but the narrator\'s actually narrating"/>'
+		content: '<img src="comics/weirdness_2.png" title="PLACEHOLDER"/>'
 	}
 	"5": {
 		title: "<h1>early installment weirdness part 3</h1>",
@@ -28,7 +28,7 @@ const pgData = {
 	}
 	"6": {
 		title: "<h1>early installment weirdness part 4</h1>",
-		content: '<img src="comics/weirdness_4.png" title="you wouldn\'t believe it, but the narrator\'s actually narrating"/>'
+		content: '<img src="comics/weirdness_4.png" title="PLACEHOLDER"/>'
 	}
 	"7": {
 		title: "<h1>early installment weirdness part 5</h1>",
