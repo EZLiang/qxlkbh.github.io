@@ -43,21 +43,14 @@ def substitute(template: str, setup: Holder, fullpath: str):
     pg = setup.pg
     try:
       pg = int(pg)
-      if pg == lastComic:
+      if pg != firstComic:
         dynamic.navbar = '<a href="%s">&lt;</a> <a href="%s">&lt;&lt;</a>' % \
           (path_to_comic(pg - 1), path_to_comic(firstComic))
-      elif pg == firstComic:
+      if pg != lastComic:
         dynamic.navbar = '<a href="%s">&gt;&gt;</a> <a href="%s">&gt;</a>' % \
           (path_to_comic(lastComic), path_to_comic(pg + 1))
         # dynamic.navbar = '<a href="%s">&gt;&gt;</a> <a href="%s">&gt;</a>' % \
         #   ("/index.html", path_to_comic(pg + 1))
-      else:
-        dynamic.navbar = '<a href="%s">&gt;&gt;</a> <a href="%s">&gt;</a> <a href="%s">&lt;</a> <a href="%s">&lt;&lt;</a>' %\
-          (path_to_comic(lastComic), path_to_comic(pg + 1),
-           path_to_comic(pg - 1), path_to_comic(firstComic))
-        # dynamic.navbar = '<a href="%s">&gt;&gt;</a> <a href="%s">&gt;</a> <a href="%s">&lt;</a> <a href="%s">&lt;&lt;</a>' %\
-        #   ("/index.html", path_to_comic(pg + 1),
-        #    path_to_comic(pg - 1), path_to_comic(firstComic))
     except ValueError:
       pass
   context = {"glo": glo, "dynamic": dynamic, "setup": setup}
